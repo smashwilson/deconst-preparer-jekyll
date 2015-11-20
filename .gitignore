@@ -37,3 +37,4 @@ build/
 env
 
 preparer-test-*
+.asset-cache
