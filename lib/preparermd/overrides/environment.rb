@@ -2,7 +2,7 @@ require 'json'
 
 require 'faraday'
 require 'sprockets'
-require 'jekyll/assets_plugin/environment'
+require 'jekyll/assets/env'
 
 # Module to be mixed in to each uploaded Asset to ensure that the correct URLs are generated.
 #
@@ -75,7 +75,7 @@ end
 
 # Custom Sprockets Environment subclass that uses our injected Index subclass.
 #
-class Environment < Jekyll::AssetsPlugin::Environment
+class Env < Jekyll::Assets::Env
   def index
     Index.new(self)
   end

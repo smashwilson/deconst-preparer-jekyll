@@ -6,6 +6,7 @@ PATH
       jekyll (= 3.0.1)
       jekyll-assets (= 2.0.1)
       json (= 1.8.3)
+      redcarpet (= 3.3.3)
       therubyracer (= 0.12.2)
 
 GEM
@@ -57,6 +58,7 @@ GEM
     rb-fsevent (0.9.6)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
+    redcarpet (3.3.3)
     ref (2.0.0)
     rouge (1.10.1)
     safe_yaml (1.0.4)
