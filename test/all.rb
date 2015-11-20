@@ -121,7 +121,7 @@ class Testcase
 
     case @outcome
     when :fail
-      header, diff = true, true
+      header, output, diff = true, true, true
     when :error
       header, output, stacktrace = true, true, true
     end
